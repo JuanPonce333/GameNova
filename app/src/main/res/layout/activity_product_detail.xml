@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/green">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imgProducto"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_launcher_foreground"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/tvNombreProducto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nombre_producto"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvPrecioProducto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/precio"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/tvDisponibilidad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/disponible"
+            android:textColor="@color/black"
+            android:layout_marginTop="12dp" />
+
+        <Button
+            android:id="@+id/btnComprarAhora"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/comprar_ahora"
+            android:backgroundTint="@color/cyan"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp" />
+
+
+        <Button
+            android:id="@+id/btnProbarDemo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/probar_demo"
+            android:backgroundTint="@color/cyan"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp" />
+
+
+        <Button
+            android:id="@+id/btnAgregarCarrito"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/agregar_carrito"
+            android:backgroundTint="@color/cyan"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:id="@+id/tvDescripcion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/descripcion_producto"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/layoutBotonesAdmin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="12dp"
+            android:visibility="gone">
+
+            <Button
+                android:id="@+id/btnEditarProducto"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="@string/editar_producto" />
+
+            <Button
+                android:id="@+id/btnEliminarProducto"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="@string/eliminar_producto" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
