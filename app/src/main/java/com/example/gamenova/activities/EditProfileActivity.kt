@@ -1,6 +1,6 @@
 package com.example.gamenova.activities
 
-import android.content.Context.MODE_PRIVATE
+
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
