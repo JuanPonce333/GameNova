@@ -54,4 +54,9 @@
     <string name="ver_producto">Ver producto</string>
     <string name="eliminar_producto2">Eliminar producto</string>
     <string name="configuracion_productos">Configuración de productos</string>
+    <string name="fontibon">GameNova Fontibón</string>
+    <string name="direccion1">Carrera 81b #19b-50</string>
+    <string name="suba">GameNova Suba</string>
+    <string name="direccion2">Calle 129f #123-30</string>
+    <string name="numero_telefono">3094753663</string>
 </resources>
