@@ -7,6 +7,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.gamenova.R
+import com.example.gamenova.utils.DataManager
 import com.google.android.material.button.MaterialButton
 
 class CartActivity : AppCompatActivity() {

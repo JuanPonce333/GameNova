@@ -7,6 +7,7 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.example.gamenova.R
+import com.example.gamenova.utils.DataManager
 
 class ProductoDetalleActivity : AppCompatActivity() {
 

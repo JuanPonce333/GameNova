@@ -14,7 +14,7 @@ class AdminActivity : AppCompatActivity() {
         val btnProductos: TextView = findViewById(R.id.btnGestionProductos)
 
         btnProductos.setOnClickListener {
-            val intent = Intent(this, LoginActivity::class.java)
+            val intent = Intent(this, AdminProductsActivity::class.java)
             startActivity(intent)
         }
     }

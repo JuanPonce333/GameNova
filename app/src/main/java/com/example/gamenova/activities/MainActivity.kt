@@ -72,8 +72,14 @@ class MainActivity : AppCompatActivity() {
         val recyclerView: RecyclerView = findViewById(R.id.recyclerProductos)
         recyclerView.layoutManager = LinearLayoutManager(this)
 
-        // 🔸 Lista de productos vacía (ya sin datos quemados)
-        val listaProductos = listOf<Producto>()
+        val listaProductos = mutableListOf<Producto>()
+
+        listaProductos.add(
+            Producto(1, "The Legend of Zelda: Tears of the Kingdom", 59.99, "Juego de aventura para Nintendo Switch", true)
+        )
+        listaProductos.add(
+            Producto(2, "God of War: Ragnarok", 69.99, "Juego de acción para PS5", false)
+        )
 
         val adapter = ProductoAdapter(
             listaProductos,

@@ -59,4 +59,6 @@
     <string name="suba">GameNova Suba</string>
     <string name="direccion2">Calle 129f #123-30</string>
     <string name="numero_telefono">3094753663</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="tiendas_cercanas2">Tiendas cercanas</string>
 </resources>
